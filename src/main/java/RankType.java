@@ -10,18 +10,23 @@ public enum RankType {
     EIGHT(8),
     NINE(9),
     TEN(10),
-    JACK(11),
-    QUEEN(12),
-    KING(13);
+    JACK(10),
+    QUEEN(10),
+    KING(10);
 
     private final int value;
+//    private final int altValue;
 
     RankType(int value){
         this.value = value;
+//        this.altValue = altValue;
     }
 
     public int getValue(){
         return this.value;
     }
 
+//    public int getAltValue() {
+//        return this.altValue;
+//    }
 }

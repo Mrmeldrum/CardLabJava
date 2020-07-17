@@ -25,7 +25,7 @@ public class Runner {
             Scanner in = new Scanner(System.in);
             String userName;
 
-            System.out.println("Enter name " + (i+1) +":");
+            System.out.println("Player " + (i+1) +", enter your name:");
             userName = in.nextLine();
 
             Player player = new Player(userName);
